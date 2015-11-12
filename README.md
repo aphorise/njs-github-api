@@ -22,6 +22,7 @@ vigour-ferry <-- HAS: .vigour.category == services - IN package.json
 For additional / related usage & documentaion see:
 - [Node.js GitHub NPM] 
 - [GitHub API] Specifics
+
 ---
 ### Version
 0.0.1
