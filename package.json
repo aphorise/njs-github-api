@@ -1,0 +1,21 @@
+{
+	"name": "njs-github-api",
+	"version": "0.0.1",
+	"author": "aphorise",
+	"description": "github-api example using Node.js 'github' module to retrive repo's containting a specific path in their 'package.json'",
+	"license": "ISC",
+	"main": "index.js",
+	"scripts":
+	{
+		"test": "echo -e \"NO test cases specified in package.json\n\" && exit 0",
+		"start": "node index.js"
+	},
+	"keywords": [ "github-api", "github", "node-github", "node.js", "eclipse", "nodeclipse" ],
+	"readmeFilename": "README.md",
+	"repository":
+	{
+		"type": "git",
+		"url": "http://github.com/aphorise/njs-github-api.git"
+	},
+	"dependencies": { "github": "*" }
+}
