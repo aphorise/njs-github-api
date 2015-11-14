@@ -13,6 +13,19 @@ This sample was devised for a specific use-case of [vigour.io](http://vigour.io)
     ...
 }
 ```
+Refer to `example.js` for a demo of how to use:
+```
+//... require("./index.js");
+//... function fFulfill... function fReject... var oRepos = {}
+mGIT.getGitHubRepos
+(
+	"develop", "vigour-io",
+	"111c00c0007abcdefg123456789abcd12345efff",
+	undefined, undefined,
+	oRepos, fFulfil, fReject
+);
+```
+
 
 These are then logged to the screen eg:
 ```
@@ -25,7 +38,7 @@ For additional / related usage & documentaion see:
 
 ---
 ### Version
-0.0.1
+0.0.2
 
  [Node.js GitHub NPM]: <http://mikedeboer.github.io/node-github/#repos.prototype.getContent>
  [GitHub API]: <https://developer.github.com/v3/>
